@@ -1,0 +1,41 @@
+name: Update quant snapshots
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: quant-snapshots
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: quant_service/requirements.txt
+      - name: Install quant dependencies
+        run: pip install -r quant_service/requirements.txt
+      - name: Calculate Backtrader signals
+        working-directory: quant_service
+        run: python generate_snapshots.py
+      - name: Commit changed snapshot
+        run: |
+          if git diff --quiet -- public/quant-signals.json; then
+            echo "Snapshot is unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- public/quant-signals.json
+          git commit -m "Update quant signal snapshot"
+          git push

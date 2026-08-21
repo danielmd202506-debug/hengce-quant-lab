@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-08-21T03:36:55.371905+00:00",
+  "frequency_minutes": 5,
+  "strategy": "Backtrader MA5/MA20",
+  "signals": {
+    "159755": {
+      "total_return": 15.73,
+      "annual_return": 5.43,
+      "max_drawdown": 30.47,
+      "sharpe": 0.29,
+      "trades": 23,
+      "won": 9,
+      "lost": 14,
+      "signal": "等待",
+      "fast_ma": 0.97,
+      "slow_ma": 0.9626,
+      "framework": "Backtrader",
+      "code": "159755",
+      "name": "电池ETF广发",
+      "type": "ETF",
+      "bars": 750,
+      "latest_date": "2026-08-21",
+      "commission": 5e-05
+    }
+  },
+  "errors": {
+    "000965": "Server disconnected without sending a response.",
+    "159870": "Server disconnected without sending a response."
+  }
+}
