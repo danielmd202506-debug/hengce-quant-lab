@@ -10,7 +10,7 @@ def _secid(code: str) -> str:
     return f"{1 if code.startswith(('5', '6', '9')) else 0}.{code}"
 
 
-async def fetch_daily(code: str, limit: int = 750) -> tuple[str, pd.DataFrame]:
+async def fetch_kline(code: str, *, period: int = 101, limit: int = 750) -> tuple[str, pd.DataFrame]:
     if len(code) != 6 or not code.isdigit():
         raise ValueError("证券代码必须为 6 位数字")
     url = "https://push2his.eastmoney.com/api/qt/stock/kline/get"
@@ -18,7 +18,7 @@ async def fetch_daily(code: str, limit: int = 750) -> tuple[str, pd.DataFrame]:
         "invt": "2",
         "fltt": "1",
         "secid": _secid(code),
-        "klt": "101",
+        "klt": str(period),
         "fqt": "1",
         "lmt": str(limit),
         "end": "20500101",
@@ -55,3 +55,13 @@ async def fetch_daily(code: str, limit: int = 750) -> tuple[str, pd.DataFrame]:
     frame["date"] = pd.to_datetime(frame["date"])
     frame = frame.set_index("date")
     return payload.get("name", code), frame[["open", "high", "low", "close", "volume"]]
+
+
+async def fetch_daily(code: str, limit: int = 750) -> tuple[str, pd.DataFrame]:
+    return await fetch_kline(code, period=101, limit=limit)
+
+
+async def fetch_intraday(code: str, minutes: int, limit: int = 500) -> tuple[str, pd.DataFrame]:
+    if minutes not in (30, 60):
+        raise ValueError("分钟周期仅支持 30 或 60")
+    return await fetch_kline(code, period=minutes, limit=limit)
