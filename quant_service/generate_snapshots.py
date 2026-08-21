@@ -42,9 +42,9 @@ async def generate() -> None:
                         commission=float(holding["commission"]),
                     ).as_dict()
                     timeframes[f"{minutes}m"] = {
-                        "signal": intraday_result.signal,
-                        "fast_ma": intraday_result.fast_ma,
-                        "slow_ma": intraday_result.slow_ma,
+                        "signal": intraday_result["signal"],
+                        "fast_ma": intraday_result["fast_ma"],
+                        "slow_ma": intraday_result["slow_ma"],
                         "bars": len(intraday),
                         "latest_date": intraday.index[-1].strftime("%Y-%m-%d %H:%M"),
                     }
