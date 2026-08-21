@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T20:16:22.780684+00:00",
+  "generated_at": "2026-08-21T22:57:52.015988+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -22,18 +22,18 @@
       "latest_date": "2026-08-21",
       "commission": 8.6e-05,
       "timeframes": {
-        "60m": {
-          "signal": "减仓/退出",
-          "fast_ma": 3.154,
-          "slow_ma": 3.1545,
-          "bars": 124,
+        "30m": {
+          "signal": "等待",
+          "fast_ma": 3.144,
+          "slow_ma": 3.15,
+          "bars": 248,
           "latest_date": "2026-08-21 15:00"
         }
       }
     }
   },
   "errors": {
-    "000965:30m": "Server disconnected without sending a response.",
+    "000965:60m": "Server disconnected without sending a response.",
     "159755": "Server disconnected without sending a response.",
     "159870": "Server disconnected without sending a response."
   }
