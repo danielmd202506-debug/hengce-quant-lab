@@ -18,7 +18,13 @@ OUTPUT = Path(__file__).resolve().parents[1] / "public" / "quant-signals.json"
 
 
 async def generate() -> None:
-    signals: dict[str, object] = {}
+    previous: dict[str, object] = {}
+    if OUTPUT.exists():
+        try:
+            previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            previous = {}
+    signals: dict[str, object] = dict(previous.get("signals", {}))
     errors: dict[str, str] = {}
 
     for holding in HOLDINGS:
@@ -31,7 +37,10 @@ async def generate() -> None:
                 slow=20,
                 commission=float(holding["commission"]),
             ).as_dict()
-            timeframes: dict[str, object] = {}
+            previous_signal = signals.get(code, {})
+            timeframes: dict[str, object] = dict(
+                previous_signal.get("timeframes", {}) if isinstance(previous_signal, dict) else {}
+            )
             for minutes in (30, 60):
                 try:
                     _, intraday = await fetch_intraday(code, minutes, limit=500)
@@ -47,6 +56,7 @@ async def generate() -> None:
                         "slow_ma": intraday_result["slow_ma"],
                         "bars": len(intraday),
                         "latest_date": intraday.index[-1].strftime("%Y-%m-%d %H:%M"),
+                        "updated_at": datetime.now(timezone.utc).isoformat(),
                     }
                 except Exception as exc:
                     errors[f"{code}:{minutes}m"] = str(exc)
@@ -60,8 +70,9 @@ async def generate() -> None:
                 "latest_date": frame.index[-1].strftime("%Y-%m-%d"),
                 "commission": holding["commission"],
                 "timeframes": timeframes,
+                "updated_at": datetime.now(timezone.utc).isoformat(),
             }
-        except Exception as exc:  # Keep other holdings available if one feed fails.
+        except Exception as exc:  # Preserve the last valid snapshot for this holding.
             errors[code] = str(exc)
 
     if not signals:
@@ -76,7 +87,7 @@ async def generate() -> None:
     }
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote {len(signals)} signals to {OUTPUT}")
+    print(f"Wrote {len(signals)} signals to {OUTPUT}; {len(errors)} fetch errors preserved")
 
 
 if __name__ == "__main__":
