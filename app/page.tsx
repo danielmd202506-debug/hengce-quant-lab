@@ -7,7 +7,7 @@ type ShortSignal={signal:string;fast_ma:number;slow_ma:number;bars:number;latest
 type QuantResult={framework:string;bars:number;latest_date:string;commission:number;total_return:number;annual_return:number;max_drawdown:number;sharpe:number|null;trades:number;won:number;lost:number;signal:string;fast_ma:number;slow_ma:number;timeframes?:Record<"30m"|"60m",ShortSignal>};
 type QuantSnapshot={generated_at:string|null;frequency_minutes:number;signals:Record<string,QuantResult>};
 const QUANT_API="http://127.0.0.1:8000";
-const QUANT_SNAPSHOT_URL=process.env.NEXT_PUBLIC_QUANT_SNAPSHOT_URL||"https://raw.githubusercontent.com/danielmd202506-debug/hengce-quant-lab/main/public/quant-signals.json";
+const QUANT_SNAPSHOT_URL=process.env.NEXT_PUBLIC_QUANT_SNAPSHOT_URL||"/api/quant-signals";
 const assets:Asset[]=[
  {code:"000965",name:"天保基建",type:"个股",price:3.12,change:-2.8,signal:"持有",confidence:60,support:3.06,stop:3,target:3.36,data:[3.44,3.39,3.36,3.31,3.28,3.24,3.19,3.22,3.18,3.16,3.21,3.17,3.14,3.19,3.15,3.12],shares:7200,cost:3.392},
  {code:"159755",name:"电池ETF广发",type:"ETF",price:.962,change:0,signal:"持有",confidence:58,support:.94,stop:.92,target:1.03,data:[1.08,1.06,1.04,1.05,1.02,1.01,.99,1,.98,.97,.99,.98,.96,.97,.95,.962],shares:7000,cost:1.11},
