@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-24T04:58:40.386811+00:00",
+  "generated_at": "2026-08-24T05:29:31.261893+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
     "000965": {
-      "total_return": -32.17,
-      "annual_return": -10.25,
+      "total_return": -31.87,
+      "annual_return": -10.15,
       "max_drawdown": 49.84,
-      "sharpe": -1.58,
+      "sharpe": -1.59,
       "trades": 23,
       "won": 6,
       "lost": 17,
       "signal": "减仓/退出",
-      "fast_ma": 3.154,
-      "slow_ma": 3.159,
+      "fast_ma": 3.156,
+      "slow_ma": 3.1595,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
@@ -22,36 +22,28 @@
       "latest_date": "2026-08-24",
       "commission": 8.6e-05,
       "timeframes": {
-        "30m": {
+        "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 3.12,
-          "slow_ma": 3.15,
-          "bars": 252,
-          "latest_date": "2026-08-24 11:30",
-          "updated_at": "2026-08-24T03:16:24.000827+00:00"
-        },
-        "60m": {
-          "signal": "减仓/退出",
-          "fast_ma": 3.132,
-          "slow_ma": 3.1505,
-          "bars": 126,
-          "latest_date": "2026-08-24 11:30",
-          "updated_at": "2026-08-24T03:16:25.482055+00:00"
+          "fast_ma": 3.134,
+          "slow_ma": 3.2835,
+          "bars": 260,
+          "latest_date": "2026-08-24",
+          "updated_at": "2026-08-24T05:29:28.992409+00:00"
         }
       },
-      "updated_at": "2026-08-24T03:16:25.982861+00:00"
+      "updated_at": "2026-08-24T05:29:29.493590+00:00"
     },
     "159755": {
-      "total_return": 15.03,
-      "annual_return": 5.18,
+      "total_return": 14.54,
+      "annual_return": 5.01,
       "max_drawdown": 30.47,
-      "sharpe": 0.28,
+      "sharpe": 0.27,
       "trades": 23,
       "won": 9,
       "lost": 14,
       "signal": "减仓/退出",
-      "fast_ma": 0.961,
-      "slow_ma": 0.9629,
+      "fast_ma": 0.96,
+      "slow_ma": 0.9627,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
@@ -60,36 +52,28 @@
       "latest_date": "2026-08-24",
       "commission": 5e-05,
       "timeframes": {
-        "30m": {
-          "signal": "等待",
-          "fast_ma": 0.9582,
-          "slow_ma": 0.9573,
-          "bars": 252,
-          "latest_date": "2026-08-24 11:30",
-          "updated_at": "2026-08-24T03:16:28.327059+00:00"
-        },
-        "60m": {
+        "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.961,
-          "slow_ma": 0.9677,
-          "bars": 126,
-          "latest_date": "2026-08-24 11:30",
-          "updated_at": "2026-08-24T03:16:29.798010+00:00"
+          "fast_ma": 0.9626,
+          "slow_ma": 1.0692,
+          "bars": 260,
+          "latest_date": "2026-08-24",
+          "updated_at": "2026-08-24T05:29:29.871256+00:00"
         }
       },
-      "updated_at": "2026-08-24T03:16:30.298810+00:00"
+      "updated_at": "2026-08-24T05:29:30.372671+00:00"
     },
     "159870": {
-      "total_return": 24.4,
-      "annual_return": 8.54,
+      "total_return": 23.8,
+      "annual_return": 8.33,
       "max_drawdown": 15.0,
-      "sharpe": 0.47,
+      "sharpe": 0.46,
       "trades": 19,
       "won": 7,
       "lost": 12,
       "signal": "等待",
-      "fast_ma": 0.8074,
-      "slow_ma": 0.8036,
+      "fast_ma": 0.8064,
+      "slow_ma": 0.8033,
       "framework": "Backtrader",
       "code": "159870",
       "name": "化工ETF鹏华",
@@ -98,29 +82,17 @@
       "latest_date": "2026-08-24",
       "commission": 5e-05,
       "timeframes": {
-        "30m": {
+        "weekly": {
           "signal": "减仓/退出",
           "fast_ma": 0.8028,
-          "slow_ma": 0.8073,
-          "bars": 252,
-          "latest_date": "2026-08-24 11:30",
-          "updated_at": "2026-08-24T03:16:32.631270+00:00"
-        },
-        "60m": {
-          "signal": "减仓/退出",
-          "fast_ma": 0.8064,
-          "slow_ma": 0.8107,
-          "bars": 126,
-          "latest_date": "2026-08-24 11:30",
-          "updated_at": "2026-08-24T03:16:34.131991+00:00"
+          "slow_ma": 0.8407,
+          "bars": 260,
+          "latest_date": "2026-08-24",
+          "updated_at": "2026-08-24T05:29:30.760377+00:00"
         }
       },
-      "updated_at": "2026-08-24T03:16:34.632781+00:00"
+      "updated_at": "2026-08-24T05:29:31.261851+00:00"
     }
   },
-  "errors": {
-    "000965": "Server disconnected without sending a response.",
-    "159755": "Server disconnected without sending a response.",
-    "159870": "Server disconnected without sending a response."
-  }
+  "errors": {}
 }
