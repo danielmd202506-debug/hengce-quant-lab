@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from engine import run_backtest
-from market_data import fetch_daily, fetch_intraday
+from market_data import fetch_daily, fetch_weekly
 
 
 HOLDINGS = (
@@ -38,29 +38,29 @@ async def generate() -> None:
                 commission=float(holding["commission"]),
             ).as_dict()
             previous_signal = signals.get(code, {})
-            timeframes: dict[str, object] = dict(
-                previous_signal.get("timeframes", {}) if isinstance(previous_signal, dict) else {}
-            )
-            for minutes in (30, 60):
-                try:
-                    _, intraday = await fetch_intraday(code, minutes, limit=500)
-                    intraday_result = run_backtest(
-                        intraday,
-                        fast=5,
-                        slow=20,
-                        commission=float(holding["commission"]),
-                    ).as_dict()
-                    timeframes[f"{minutes}m"] = {
-                        "signal": intraday_result["signal"],
-                        "fast_ma": intraday_result["fast_ma"],
-                        "slow_ma": intraday_result["slow_ma"],
-                        "bars": len(intraday),
-                        "latest_date": intraday.index[-1].strftime("%Y-%m-%d %H:%M"),
-                        "updated_at": datetime.now(timezone.utc).isoformat(),
-                    }
-                except Exception as exc:
-                    errors[f"{code}:{minutes}m"] = str(exc)
-                await asyncio.sleep(0.5)
+            previous_frames = previous_signal.get("timeframes", {}) if isinstance(previous_signal, dict) else {}
+            timeframes: dict[str, object] = {}
+            if isinstance(previous_frames, dict) and "weekly" in previous_frames:
+                timeframes["weekly"] = previous_frames["weekly"]
+            try:
+                _, weekly = await fetch_weekly(code, limit=260)
+                weekly_result = run_backtest(
+                    weekly,
+                    fast=5,
+                    slow=20,
+                    commission=float(holding["commission"]),
+                ).as_dict()
+                timeframes["weekly"] = {
+                    "signal": weekly_result["signal"],
+                    "fast_ma": weekly_result["fast_ma"],
+                    "slow_ma": weekly_result["slow_ma"],
+                    "bars": len(weekly),
+                    "latest_date": weekly.index[-1].strftime("%Y-%m-%d"),
+                    "updated_at": datetime.now(timezone.utc).isoformat(),
+                }
+            except Exception as exc:
+                errors[f"{code}:weekly"] = str(exc)
+            await asyncio.sleep(0.5)
             signals[code] = {
                 **result,
                 "code": code,
