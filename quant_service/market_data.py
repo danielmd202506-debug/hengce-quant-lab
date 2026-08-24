@@ -65,3 +65,7 @@ async def fetch_intraday(code: str, minutes: int, limit: int = 500) -> tuple[str
     if minutes not in (30, 60):
         raise ValueError("分钟周期仅支持 30 或 60")
     return await fetch_kline(code, period=minutes, limit=limit)
+
+
+async def fetch_weekly(code: str, limit: int = 260) -> tuple[str, pd.DataFrame]:
+    return await fetch_kline(code, period=102, limit=limit)
