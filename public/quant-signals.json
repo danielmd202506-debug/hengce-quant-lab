@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T02:12:48.484385+00:00",
+  "generated_at": "2026-08-24T03:16:34.632803+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -24,34 +24,34 @@
       "timeframes": {
         "30m": {
           "signal": "减仓/退出",
-          "fast_ma": 3.138,
-          "slow_ma": 3.1495,
-          "bars": 250,
-          "latest_date": "2026-08-24 10:30",
-          "updated_at": "2026-08-24T02:12:39.434991+00:00"
+          "fast_ma": 3.12,
+          "slow_ma": 3.15,
+          "bars": 252,
+          "latest_date": "2026-08-24 11:30",
+          "updated_at": "2026-08-24T03:16:24.000827+00:00"
         },
         "60m": {
           "signal": "减仓/退出",
-          "fast_ma": 3.134,
-          "slow_ma": 3.153,
-          "bars": 125,
-          "latest_date": "2026-08-24 10:30",
-          "updated_at": "2026-08-24T02:12:40.662279+00:00"
+          "fast_ma": 3.132,
+          "slow_ma": 3.1505,
+          "bars": 126,
+          "latest_date": "2026-08-24 11:30",
+          "updated_at": "2026-08-24T03:16:25.482055+00:00"
         }
       },
-      "updated_at": "2026-08-24T02:12:41.163108+00:00"
+      "updated_at": "2026-08-24T03:16:25.982861+00:00"
     },
     "159755": {
-      "total_return": 15.53,
-      "annual_return": 5.36,
+      "total_return": 15.03,
+      "annual_return": 5.18,
       "max_drawdown": 30.47,
-      "sharpe": 0.29,
+      "sharpe": 0.28,
       "trades": 23,
       "won": 9,
       "lost": 14,
-      "signal": "等待",
-      "fast_ma": 0.962,
-      "slow_ma": 0.9631,
+      "signal": "减仓/退出",
+      "fast_ma": 0.961,
+      "slow_ma": 0.9629,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
@@ -61,35 +61,35 @@
       "commission": 5e-05,
       "timeframes": {
         "30m": {
-          "signal": "持有/观察买入",
-          "fast_ma": 0.9614,
-          "slow_ma": 0.9572,
-          "bars": 250,
-          "latest_date": "2026-08-24 10:30",
-          "updated_at": "2026-08-24T02:12:42.973374+00:00"
+          "signal": "等待",
+          "fast_ma": 0.9582,
+          "slow_ma": 0.9573,
+          "bars": 252,
+          "latest_date": "2026-08-24 11:30",
+          "updated_at": "2026-08-24T03:16:28.327059+00:00"
         },
         "60m": {
           "signal": "减仓/退出",
-          "fast_ma": 0.9638,
-          "slow_ma": 0.9693,
-          "bars": 125,
-          "latest_date": "2026-08-24 10:30",
-          "updated_at": "2026-08-24T02:12:44.318429+00:00"
+          "fast_ma": 0.961,
+          "slow_ma": 0.9677,
+          "bars": 126,
+          "latest_date": "2026-08-24 11:30",
+          "updated_at": "2026-08-24T03:16:29.798010+00:00"
         }
       },
-      "updated_at": "2026-08-24T02:12:44.819297+00:00"
+      "updated_at": "2026-08-24T03:16:30.298810+00:00"
     },
     "159870": {
-      "total_return": 25.11,
-      "annual_return": 8.8,
+      "total_return": 24.4,
+      "annual_return": 8.54,
       "max_drawdown": 15.0,
-      "sharpe": 0.49,
+      "sharpe": 0.47,
       "trades": 19,
       "won": 7,
       "lost": 12,
       "signal": "等待",
-      "fast_ma": 0.8086,
-      "slow_ma": 0.8039,
+      "fast_ma": 0.8074,
+      "slow_ma": 0.8036,
       "framework": "Backtrader",
       "code": "159870",
       "name": "化工ETF鹏华",
@@ -100,22 +100,22 @@
       "timeframes": {
         "30m": {
           "signal": "减仓/退出",
-          "fast_ma": 0.8076,
-          "slow_ma": 0.8079,
-          "bars": 250,
-          "latest_date": "2026-08-24 10:30",
-          "updated_at": "2026-08-24T02:12:46.632882+00:00"
+          "fast_ma": 0.8028,
+          "slow_ma": 0.8073,
+          "bars": 252,
+          "latest_date": "2026-08-24 11:30",
+          "updated_at": "2026-08-24T03:16:32.631270+00:00"
         },
         "60m": {
           "signal": "减仓/退出",
-          "fast_ma": 0.8092,
-          "slow_ma": 0.8113,
-          "bars": 125,
-          "latest_date": "2026-08-24 10:30",
-          "updated_at": "2026-08-24T02:12:47.983550+00:00"
+          "fast_ma": 0.8064,
+          "slow_ma": 0.8107,
+          "bars": 126,
+          "latest_date": "2026-08-24 11:30",
+          "updated_at": "2026-08-24T03:16:34.131991+00:00"
         }
       },
-      "updated_at": "2026-08-24T02:12:48.484363+00:00"
+      "updated_at": "2026-08-24T03:16:34.632781+00:00"
     }
   },
   "errors": {}
