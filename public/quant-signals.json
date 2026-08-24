@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-24T05:29:31.261893+00:00",
+  "generated_at": "2026-08-24T05:38:10.995443+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
     "000965": {
-      "total_return": -31.87,
-      "annual_return": -10.15,
+      "total_return": -32.17,
+      "annual_return": -10.25,
       "max_drawdown": 49.84,
-      "sharpe": -1.59,
+      "sharpe": -1.58,
       "trades": 23,
       "won": 6,
       "lost": 17,
       "signal": "减仓/退出",
-      "fast_ma": 3.156,
-      "slow_ma": 3.1595,
+      "fast_ma": 3.154,
+      "slow_ma": 3.159,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
@@ -24,26 +24,26 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 3.134,
-          "slow_ma": 3.2835,
+          "fast_ma": 3.132,
+          "slow_ma": 3.283,
           "bars": 260,
           "latest_date": "2026-08-24",
-          "updated_at": "2026-08-24T05:29:28.992409+00:00"
+          "updated_at": "2026-08-24T05:37:54.485075+00:00"
         }
       },
-      "updated_at": "2026-08-24T05:29:29.493590+00:00"
+      "updated_at": "2026-08-24T05:37:54.985890+00:00"
     },
     "159755": {
-      "total_return": 14.54,
-      "annual_return": 5.01,
+      "total_return": 14.44,
+      "annual_return": 4.97,
       "max_drawdown": 30.47,
       "sharpe": 0.27,
       "trades": 23,
       "won": 9,
       "lost": 14,
       "signal": "减仓/退出",
-      "fast_ma": 0.96,
-      "slow_ma": 0.9627,
+      "fast_ma": 0.9598,
+      "slow_ma": 0.9626,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
@@ -61,7 +61,7 @@
           "updated_at": "2026-08-24T05:29:29.871256+00:00"
         }
       },
-      "updated_at": "2026-08-24T05:29:30.372671+00:00"
+      "updated_at": "2026-08-24T05:38:03.818871+00:00"
     },
     "159870": {
       "total_return": 23.8,
@@ -94,5 +94,8 @@
       "updated_at": "2026-08-24T05:29:31.261851+00:00"
     }
   },
-  "errors": {}
+  "errors": {
+    "159755:weekly": "Server disconnected without sending a response.",
+    "159870": "Server disconnected without sending a response."
+  }
 }
