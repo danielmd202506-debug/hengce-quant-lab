@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T17:34:07.320520+00:00",
+  "generated_at": "2026-08-25T18:00:49.578134+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -28,10 +28,10 @@
           "slow_ma": 3.2885,
           "bars": 260,
           "latest_date": "2026-08-25",
-          "updated_at": "2026-08-25T16:59:27.844329+00:00"
+          "updated_at": "2026-08-25T18:00:35.910805+00:00"
         }
       },
-      "updated_at": "2026-08-25T16:59:28.345164+00:00"
+      "updated_at": "2026-08-25T18:00:36.411635+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -95,7 +95,6 @@
     }
   },
   "errors": {
-    "000965": "Server disconnected without sending a response.",
     "159755": "Server disconnected without sending a response.",
     "159870": "Server disconnected without sending a response."
   }
