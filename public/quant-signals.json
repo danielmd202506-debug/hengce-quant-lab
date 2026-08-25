@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T04:03:38.811848+00:00",
+  "generated_at": "2026-08-25T04:48:45.432281+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -12,8 +12,8 @@
       "won": 6,
       "lost": 18,
       "signal": "等待",
-      "fast_ma": 3.162,
-      "slow_ma": 3.167,
+      "fast_ma": 3.158,
+      "slow_ma": 3.166,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
@@ -24,14 +24,14 @@
       "timeframes": {
         "weekly": {
           "signal": "等待",
-          "fast_ma": 3.154,
-          "slow_ma": 3.2885,
+          "fast_ma": 3.15,
+          "slow_ma": 3.2875,
           "bars": 260,
           "latest_date": "2026-08-25",
-          "updated_at": "2026-08-25T03:16:28.735309+00:00"
+          "updated_at": "2026-08-25T04:48:35.084909+00:00"
         }
       },
-      "updated_at": "2026-08-25T03:16:29.236157+00:00"
+      "updated_at": "2026-08-25T04:48:35.585743+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -42,8 +42,8 @@
       "won": 9,
       "lost": 15,
       "signal": "减仓/退出",
-      "fast_ma": 0.9504,
-      "slow_ma": 0.9632,
+      "fast_ma": 0.9508,
+      "slow_ma": 0.9633,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
@@ -54,25 +54,25 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.9592,
-          "slow_ma": 1.0684,
+          "fast_ma": 0.9596,
+          "slow_ma": 1.0685,
           "bars": 260,
           "latest_date": "2026-08-25",
-          "updated_at": "2026-08-25T03:16:37.067724+00:00"
+          "updated_at": "2026-08-25T04:48:37.146969+00:00"
         }
       },
-      "updated_at": "2026-08-25T03:16:37.568561+00:00"
+      "updated_at": "2026-08-25T04:48:37.647783+00:00"
     },
     "159870": {
-      "total_return": 22.72,
-      "annual_return": 7.93,
+      "total_return": 22.84,
+      "annual_return": 7.98,
       "max_drawdown": 15.0,
       "sharpe": 0.44,
       "trades": 19,
       "won": 7,
       "lost": 12,
       "signal": "减仓/退出",
-      "fast_ma": 0.8002,
+      "fast_ma": 0.8004,
       "slow_ma": 0.804,
       "framework": "Backtrader",
       "code": "159870",
@@ -91,12 +91,10 @@
           "updated_at": "2026-08-25T03:16:39.453627+00:00"
         }
       },
-      "updated_at": "2026-08-25T03:16:39.954444+00:00"
+      "updated_at": "2026-08-25T04:48:45.432258+00:00"
     }
   },
   "errors": {
-    "000965": "Server disconnected without sending a response.",
-    "159755": "Server disconnected without sending a response.",
-    "159870": "Server disconnected without sending a response."
+    "159870:weekly": "Server disconnected without sending a response."
   }
 }
