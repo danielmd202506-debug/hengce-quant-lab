@@ -1,102 +1,98 @@
 {
-  "generated_at": "2026-08-25T01:05:52.827119+00:00",
+  "generated_at": "2026-08-25T02:22:21.653593+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
     "000965": {
-      "total_return": -31.87,
-      "annual_return": -10.15,
+      "total_return": -32.18,
+      "annual_return": -10.25,
       "max_drawdown": 49.84,
-      "sharpe": -1.59,
-      "trades": 23,
+      "sharpe": -1.58,
+      "trades": 24,
       "won": 6,
-      "lost": 17,
-      "signal": "减仓/退出",
-      "fast_ma": 3.156,
-      "slow_ma": 3.1595,
+      "lost": 18,
+      "signal": "等待",
+      "fast_ma": 3.158,
+      "slow_ma": 3.166,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
       "type": "个股",
       "bars": 750,
-      "latest_date": "2026-08-24",
+      "latest_date": "2026-08-25",
       "commission": 8.6e-05,
       "timeframes": {
         "weekly": {
-          "signal": "减仓/退出",
-          "fast_ma": 3.134,
-          "slow_ma": 3.2835,
+          "signal": "等待",
+          "fast_ma": 3.15,
+          "slow_ma": 3.2875,
           "bars": 260,
-          "latest_date": "2026-08-24",
-          "updated_at": "2026-08-24T23:20:16.458244+00:00"
+          "latest_date": "2026-08-25",
+          "updated_at": "2026-08-25T02:22:10.892584+00:00"
         }
       },
-      "updated_at": "2026-08-24T23:20:16.959029+00:00"
+      "updated_at": "2026-08-25T02:22:11.393430+00:00"
     },
     "159755": {
-      "total_return": 14.93,
-      "annual_return": 5.15,
+      "total_return": 14.03,
+      "annual_return": 4.83,
       "max_drawdown": 30.47,
-      "sharpe": 0.28,
-      "trades": 23,
+      "sharpe": 0.27,
+      "trades": 24,
       "won": 9,
-      "lost": 14,
+      "lost": 15,
       "signal": "减仓/退出",
-      "fast_ma": 0.9608,
-      "slow_ma": 0.9628,
+      "fast_ma": 0.9516,
+      "slow_ma": 0.9635,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
       "type": "ETF",
       "bars": 750,
-      "latest_date": "2026-08-24",
+      "latest_date": "2026-08-25",
       "commission": 5e-05,
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.9634,
-          "slow_ma": 1.0694,
+          "fast_ma": 0.9604,
+          "slow_ma": 1.0687,
           "bars": 260,
-          "latest_date": "2026-08-24",
-          "updated_at": "2026-08-24T18:01:25.424883+00:00"
+          "latest_date": "2026-08-25",
+          "updated_at": "2026-08-25T02:22:18.160213+00:00"
         }
       },
-      "updated_at": "2026-08-24T22:02:58.652361+00:00"
+      "updated_at": "2026-08-25T02:22:18.661092+00:00"
     },
     "159870": {
-      "total_return": 24.04,
-      "annual_return": 8.41,
+      "total_return": 23.68,
+      "annual_return": 8.28,
       "max_drawdown": 15.0,
       "sharpe": 0.46,
       "trades": 19,
       "won": 7,
       "lost": 12,
-      "signal": "等待",
-      "fast_ma": 0.8068,
-      "slow_ma": 0.8034,
+      "signal": "减仓/退出",
+      "fast_ma": 0.8018,
+      "slow_ma": 0.8044,
       "framework": "Backtrader",
       "code": "159870",
       "name": "化工ETF鹏华",
       "type": "ETF",
       "bars": 750,
-      "latest_date": "2026-08-24",
+      "latest_date": "2026-08-25",
       "commission": 5e-05,
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.8032,
-          "slow_ma": 0.8408,
+          "fast_ma": 0.8026,
+          "slow_ma": 0.8406,
           "bars": 260,
-          "latest_date": "2026-08-24",
-          "updated_at": "2026-08-24T18:01:27.591832+00:00"
+          "latest_date": "2026-08-25",
+          "updated_at": "2026-08-25T02:22:21.152760+00:00"
         }
       },
-      "updated_at": "2026-08-24T23:20:31.112800+00:00"
+      "updated_at": "2026-08-25T02:22:21.653571+00:00"
     }
   },
-  "errors": {
-    "000965": "Server disconnected without sending a response.",
-    "159755": "Server disconnected without sending a response.",
-    "159870": "Server disconnected without sending a response."
-  }
+  "errors": {}
 }
