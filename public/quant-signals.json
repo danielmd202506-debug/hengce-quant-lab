@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T06:20:48.254282+00:00",
+  "generated_at": "2026-08-25T07:14:13.841923+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -12,8 +12,8 @@
       "won": 6,
       "lost": 18,
       "signal": "等待",
-      "fast_ma": 3.16,
-      "slow_ma": 3.1665,
+      "fast_ma": 3.162,
+      "slow_ma": 3.167,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
@@ -24,14 +24,14 @@
       "timeframes": {
         "weekly": {
           "signal": "等待",
-          "fast_ma": 3.15,
-          "slow_ma": 3.2875,
+          "fast_ma": 3.154,
+          "slow_ma": 3.2885,
           "bars": 260,
           "latest_date": "2026-08-25",
-          "updated_at": "2026-08-25T04:48:35.084909+00:00"
+          "updated_at": "2026-08-25T07:14:03.982043+00:00"
         }
       },
-      "updated_at": "2026-08-25T05:19:12.901535+00:00"
+      "updated_at": "2026-08-25T07:14:04.482862+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -42,8 +42,8 @@
       "won": 9,
       "lost": 15,
       "signal": "减仓/退出",
-      "fast_ma": 0.9522,
-      "slow_ma": 0.9637,
+      "fast_ma": 0.9514,
+      "slow_ma": 0.9635,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
@@ -54,14 +54,14 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.961,
-          "slow_ma": 1.0688,
+          "fast_ma": 0.9602,
+          "slow_ma": 1.0686,
           "bars": 260,
           "latest_date": "2026-08-25",
-          "updated_at": "2026-08-25T05:19:22.946393+00:00"
+          "updated_at": "2026-08-25T07:14:06.462005+00:00"
         }
       },
-      "updated_at": "2026-08-25T05:19:23.447123+00:00"
+      "updated_at": "2026-08-25T07:14:06.962826+00:00"
     },
     "159870": {
       "total_return": 22.6,
@@ -95,8 +95,6 @@
     }
   },
   "errors": {
-    "000965": "Server disconnected without sending a response.",
-    "159755": "Server disconnected without sending a response.",
     "159870": "Server disconnected without sending a response."
   }
 }
