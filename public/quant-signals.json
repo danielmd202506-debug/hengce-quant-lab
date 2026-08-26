@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T13:29:17.195780+00:00",
+  "generated_at": "2026-08-26T14:12:42.426329+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -28,10 +28,10 @@
           "slow_ma": 3.2895,
           "bars": 260,
           "latest_date": "2026-08-26",
-          "updated_at": "2026-08-26T10:56:41.637749+00:00"
+          "updated_at": "2026-08-26T14:12:28.845676+00:00"
         }
       },
-      "updated_at": "2026-08-26T11:24:20.480626+00:00"
+      "updated_at": "2026-08-26T14:12:29.346543+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -58,10 +58,10 @@
           "slow_ma": 1.0691,
           "bars": 260,
           "latest_date": "2026-08-26",
-          "updated_at": "2026-08-26T08:21:35.786851+00:00"
+          "updated_at": "2026-08-26T14:12:31.302026+00:00"
         }
       },
-      "updated_at": "2026-08-26T08:21:36.287594+00:00"
+      "updated_at": "2026-08-26T14:12:31.802845+00:00"
     },
     "159870": {
       "total_return": 22.47,
@@ -88,15 +88,11 @@
           "slow_ma": 0.8409,
           "bars": 260,
           "latest_date": "2026-08-26",
-          "updated_at": "2026-08-26T09:07:10.288730+00:00"
+          "updated_at": "2026-08-26T14:12:41.925460+00:00"
         }
       },
-      "updated_at": "2026-08-26T09:07:10.789528+00:00"
+      "updated_at": "2026-08-26T14:12:42.426306+00:00"
     }
   },
-  "errors": {
-    "000965": "Server disconnected without sending a response.",
-    "159755": "Server disconnected without sending a response.",
-    "159870": "Server disconnected without sending a response."
-  }
+  "errors": {}
 }
