@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T05:25:48.231862+00:00",
+  "generated_at": "2026-08-26T05:58:55.872853+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -72,7 +72,7 @@
       "won": 8,
       "lost": 12,
       "signal": "减仓/退出",
-      "fast_ma": 0.799,
+      "fast_ma": 0.7988,
       "slow_ma": 0.8045,
       "framework": "Backtrader",
       "code": "159870",
@@ -88,11 +88,14 @@
           "slow_ma": 0.8408,
           "bars": 260,
           "latest_date": "2026-08-26",
-          "updated_at": "2026-08-26T05:25:47.731068+00:00"
+          "updated_at": "2026-08-26T05:58:55.371936+00:00"
         }
       },
-      "updated_at": "2026-08-26T05:25:48.231841+00:00"
+      "updated_at": "2026-08-26T05:58:55.872832+00:00"
     }
   },
-  "errors": {}
+  "errors": {
+    "000965": "Server disconnected without sending a response.",
+    "159755": "Server disconnected without sending a response."
+  }
 }
