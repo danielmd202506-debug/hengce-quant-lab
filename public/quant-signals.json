@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T05:58:55.872853+00:00",
+  "generated_at": "2026-08-26T06:49:35.102349+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -28,10 +28,10 @@
           "slow_ma": 3.2895,
           "bars": 260,
           "latest_date": "2026-08-26",
-          "updated_at": "2026-08-26T05:25:41.194875+00:00"
+          "updated_at": "2026-08-26T06:49:30.245459+00:00"
         }
       },
-      "updated_at": "2026-08-26T05:25:41.695645+00:00"
+      "updated_at": "2026-08-26T06:49:30.746228+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -41,9 +41,9 @@
       "trades": 24,
       "won": 9,
       "lost": 15,
-      "signal": "等待",
-      "fast_ma": 0.9514,
-      "slow_ma": 0.964,
+      "signal": "减仓/退出",
+      "fast_ma": 0.951,
+      "slow_ma": 0.9639,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
@@ -54,14 +54,14 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.9626,
-          "slow_ma": 1.0692,
+          "fast_ma": 0.9622,
+          "slow_ma": 1.0691,
           "bars": 260,
           "latest_date": "2026-08-26",
-          "updated_at": "2026-08-26T05:25:43.423903+00:00"
+          "updated_at": "2026-08-26T06:49:32.392202+00:00"
         }
       },
-      "updated_at": "2026-08-26T05:25:43.924689+00:00"
+      "updated_at": "2026-08-26T06:49:32.892963+00:00"
     },
     "159870": {
       "total_return": 22.47,
@@ -72,8 +72,8 @@
       "won": 8,
       "lost": 12,
       "signal": "减仓/退出",
-      "fast_ma": 0.7988,
-      "slow_ma": 0.8045,
+      "fast_ma": 0.7994,
+      "slow_ma": 0.8046,
       "framework": "Backtrader",
       "code": "159870",
       "name": "化工ETF鹏华",
@@ -84,18 +84,15 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.8032,
-          "slow_ma": 0.8408,
+          "fast_ma": 0.8036,
+          "slow_ma": 0.8409,
           "bars": 260,
           "latest_date": "2026-08-26",
-          "updated_at": "2026-08-26T05:58:55.371936+00:00"
+          "updated_at": "2026-08-26T06:49:34.601548+00:00"
         }
       },
-      "updated_at": "2026-08-26T05:58:55.872832+00:00"
+      "updated_at": "2026-08-26T06:49:35.102329+00:00"
     }
   },
-  "errors": {
-    "000965": "Server disconnected without sending a response.",
-    "159755": "Server disconnected without sending a response."
-  }
+  "errors": {}
 }
