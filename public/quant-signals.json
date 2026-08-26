@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T07:34:38.741577+00:00",
+  "generated_at": "2026-08-26T08:21:43.341243+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -28,10 +28,10 @@
           "slow_ma": 3.2895,
           "bars": 260,
           "latest_date": "2026-08-26",
-          "updated_at": "2026-08-26T06:49:30.245459+00:00"
+          "updated_at": "2026-08-26T08:21:33.977222+00:00"
         }
       },
-      "updated_at": "2026-08-26T06:49:30.746228+00:00"
+      "updated_at": "2026-08-26T08:21:34.478049+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -42,7 +42,7 @@
       "won": 9,
       "lost": 15,
       "signal": "减仓/退出",
-      "fast_ma": 0.951,
+      "fast_ma": 0.9508,
       "slow_ma": 0.9639,
       "framework": "Backtrader",
       "code": "159755",
@@ -54,14 +54,14 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.9622,
+          "fast_ma": 0.962,
           "slow_ma": 1.0691,
           "bars": 260,
           "latest_date": "2026-08-26",
-          "updated_at": "2026-08-26T06:49:32.392202+00:00"
+          "updated_at": "2026-08-26T08:21:35.786851+00:00"
         }
       },
-      "updated_at": "2026-08-26T06:49:32.892963+00:00"
+      "updated_at": "2026-08-26T08:21:36.287594+00:00"
     },
     "159870": {
       "total_return": 22.47,
@@ -72,7 +72,7 @@
       "won": 8,
       "lost": 12,
       "signal": "减仓/退出",
-      "fast_ma": 0.7994,
+      "fast_ma": 0.7996,
       "slow_ma": 0.8046,
       "framework": "Backtrader",
       "code": "159870",
@@ -91,12 +91,10 @@
           "updated_at": "2026-08-26T06:49:34.601548+00:00"
         }
       },
-      "updated_at": "2026-08-26T06:49:35.102329+00:00"
+      "updated_at": "2026-08-26T08:21:43.341219+00:00"
     }
   },
   "errors": {
-    "000965": "Server disconnected without sending a response.",
-    "159755": "Server disconnected without sending a response.",
-    "159870": "Server disconnected without sending a response."
+    "159870:weekly": "Server disconnected without sending a response."
   }
 }
