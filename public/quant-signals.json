@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T08:52:55.350592+00:00",
+  "generated_at": "2026-08-31T16:25:05.244864+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -28,10 +28,10 @@
           "slow_ma": 3.291,
           "bars": 260,
           "latest_date": "2026-08-31",
-          "updated_at": "2026-08-31T08:52:37.196602+00:00"
+          "updated_at": "2026-08-31T16:24:56.275801+00:00"
         }
       },
-      "updated_at": "2026-08-31T08:52:37.697485+00:00"
+      "updated_at": "2026-08-31T16:24:56.776670+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -42,8 +42,8 @@
       "won": 9,
       "lost": 15,
       "signal": "减仓/退出",
-      "fast_ma": 0.9436,
-      "slow_ma": 0.9641,
+      "fast_ma": 0.9454,
+      "slow_ma": 0.9646,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
@@ -54,14 +54,14 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.9584,
-          "slow_ma": 1.056,
+          "fast_ma": 0.9602,
+          "slow_ma": 1.0565,
           "bars": 260,
           "latest_date": "2026-08-31",
-          "updated_at": "2026-08-31T02:33:15.415389+00:00"
+          "updated_at": "2026-08-31T16:24:58.373822+00:00"
         }
       },
-      "updated_at": "2026-08-31T02:33:15.915912+00:00"
+      "updated_at": "2026-08-31T16:24:58.874641+00:00"
     },
     "159870": {
       "total_return": 22.47,
@@ -95,7 +95,6 @@
     }
   },
   "errors": {
-    "159755": "Server disconnected without sending a response.",
     "159870": "Server disconnected without sending a response."
   }
 }
