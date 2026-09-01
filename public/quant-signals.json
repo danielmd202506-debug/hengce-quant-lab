@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T21:32:09.677625+00:00",
+  "generated_at": "2026-09-01T00:45:57.940308+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -28,10 +28,10 @@
           "slow_ma": 3.291,
           "bars": 260,
           "latest_date": "2026-08-31",
-          "updated_at": "2026-08-31T21:32:01.030792+00:00"
+          "updated_at": "2026-09-01T00:45:53.462059+00:00"
         }
       },
-      "updated_at": "2026-08-31T21:32:01.531619+00:00"
+      "updated_at": "2026-09-01T00:45:53.962873+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -58,10 +58,10 @@
           "slow_ma": 1.0565,
           "bars": 260,
           "latest_date": "2026-08-31",
-          "updated_at": "2026-08-31T21:32:03.044743+00:00"
+          "updated_at": "2026-09-01T00:45:55.399823+00:00"
         }
       },
-      "updated_at": "2026-08-31T21:32:03.545575+00:00"
+      "updated_at": "2026-09-01T00:45:55.900608+00:00"
     },
     "159870": {
       "total_return": 22.47,
@@ -72,8 +72,8 @@
       "won": 8,
       "lost": 12,
       "signal": "持有/观察买入",
-      "fast_ma": 0.8124,
-      "slow_ma": 0.8115,
+      "fast_ma": 0.814,
+      "slow_ma": 0.8119,
       "framework": "Backtrader",
       "code": "159870",
       "name": "化工ETF鹏华",
@@ -84,17 +84,15 @@
       "timeframes": {
         "weekly": {
           "signal": "等待",
-          "fast_ma": 0.8194,
-          "slow_ma": 0.839,
+          "fast_ma": 0.821,
+          "slow_ma": 0.8394,
           "bars": 260,
           "latest_date": "2026-08-31",
-          "updated_at": "2026-08-31T02:33:17.805426+00:00"
+          "updated_at": "2026-09-01T00:45:57.439517+00:00"
         }
       },
-      "updated_at": "2026-08-31T02:33:18.306260+00:00"
+      "updated_at": "2026-09-01T00:45:57.940288+00:00"
     }
   },
-  "errors": {
-    "159870": "Server disconnected without sending a response."
-  }
+  "errors": {}
 }
