@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-07T13:32:20.368653+00:00",
+  "generated_at": "2026-09-07T18:22:04.627641+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
     "000965": {
-      "total_return": -28.73,
-      "annual_return": -9.2,
+      "total_return": -29.01,
+      "annual_return": -9.29,
       "max_drawdown": 49.84,
       "sharpe": -1.66,
       "trades": 24,
       "won": 6,
       "lost": 18,
       "signal": "等待",
-      "fast_ma": 3.378,
-      "slow_ma": 3.258,
+      "fast_ma": 3.376,
+      "slow_ma": 3.2575,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
@@ -24,14 +24,14 @@
       "timeframes": {
         "weekly": {
           "signal": "等待",
-          "fast_ma": 3.258,
-          "slow_ma": 3.269,
+          "fast_ma": 3.256,
+          "slow_ma": 3.2685,
           "bars": 260,
           "latest_date": "2026-09-07",
-          "updated_at": "2026-09-07T02:03:05.967511+00:00"
+          "updated_at": "2026-09-07T18:21:47.929128+00:00"
         }
       },
-      "updated_at": "2026-09-07T02:03:06.468352+00:00"
+      "updated_at": "2026-09-07T18:21:48.429953+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -64,16 +64,16 @@
       "updated_at": "2026-09-07T02:03:09.363243+00:00"
     },
     "159870": {
-      "total_return": 18.38,
-      "annual_return": 6.37,
-      "max_drawdown": 18.02,
-      "sharpe": 0.36,
+      "total_return": 18.26,
+      "annual_return": 6.33,
+      "max_drawdown": 18.11,
+      "sharpe": 0.35,
       "trades": 20,
       "won": 8,
       "lost": 12,
       "signal": "减仓/退出",
-      "fast_ma": 0.8072,
-      "slow_ma": 0.8099,
+      "fast_ma": 0.807,
+      "slow_ma": 0.8098,
       "framework": "Backtrader",
       "code": "159870",
       "name": "化工ETF鹏华",
@@ -91,12 +91,11 @@
           "updated_at": "2026-09-07T02:03:11.750093+00:00"
         }
       },
-      "updated_at": "2026-09-07T02:03:12.250963+00:00"
+      "updated_at": "2026-09-07T18:22:04.627620+00:00"
     }
   },
   "errors": {
-    "000965": "Server disconnected without sending a response.",
     "159755": "Server disconnected without sending a response.",
-    "159870": "Server disconnected without sending a response."
+    "159870:weekly": "Server disconnected without sending a response."
   }
 }
