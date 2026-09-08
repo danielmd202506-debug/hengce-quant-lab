@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-08T06:06:14.823467+00:00",
+  "generated_at": "2026-09-08T11:10:14.171899+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
     "000965": {
-      "total_return": -29.01,
-      "annual_return": -9.29,
+      "total_return": -25.11,
+      "annual_return": -8.09,
       "max_drawdown": 49.84,
-      "sharpe": -1.66,
+      "sharpe": -1.6,
       "trades": 24,
       "won": 6,
       "lost": 18,
-      "signal": "等待",
-      "fast_ma": 3.376,
-      "slow_ma": 3.2575,
+      "signal": "持有/观察买入",
+      "fast_ma": 3.382,
+      "slow_ma": 3.2715,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
       "type": "个股",
       "bars": 750,
-      "latest_date": "2026-09-07",
+      "latest_date": "2026-09-08",
       "commission": 8.6e-05,
       "timeframes": {
         "weekly": {
-          "signal": "等待",
-          "fast_ma": 3.256,
-          "slow_ma": 3.2685,
+          "signal": "持有/观察买入",
+          "fast_ma": 3.284,
+          "slow_ma": 3.2755,
           "bars": 260,
-          "latest_date": "2026-09-07",
-          "updated_at": "2026-09-07T21:36:22.826564+00:00"
+          "latest_date": "2026-09-08",
+          "updated_at": "2026-09-08T11:10:01.926017+00:00"
         }
       },
-      "updated_at": "2026-09-07T21:36:23.327396+00:00"
+      "updated_at": "2026-09-08T11:10:02.426843+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -95,8 +95,7 @@
     }
   },
   "errors": {
-    "000965": "Server disconnected without sending a response.",
     "159755": "Server disconnected without sending a response.",
-    "159870:weekly": "Server disconnected without sending a response."
+    "159870": "Server disconnected without sending a response."
   }
 }
