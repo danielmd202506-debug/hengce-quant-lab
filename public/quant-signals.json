@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-09T06:06:13.607491+00:00",
+  "generated_at": "2026-09-09T11:14:24.059341+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
     "000965": {
-      "total_return": -27.32,
-      "annual_return": -8.77,
+      "total_return": -26.76,
+      "annual_return": -8.6,
       "max_drawdown": 49.84,
-      "sharpe": -1.66,
+      "sharpe": -1.65,
       "trades": 24,
       "won": 6,
       "lost": 18,
       "signal": "持有/观察买入",
-      "fast_ma": 3.38,
-      "slow_ma": 3.2785,
+      "fast_ma": 3.384,
+      "slow_ma": 3.2795,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
@@ -24,14 +24,14 @@
       "timeframes": {
         "weekly": {
           "signal": "等待",
-          "fast_ma": 3.268,
-          "slow_ma": 3.2715,
+          "fast_ma": 3.272,
+          "slow_ma": 3.2725,
           "bars": 260,
           "latest_date": "2026-09-09",
-          "updated_at": "2026-09-09T06:06:05.849072+00:00"
+          "updated_at": "2026-09-09T11:14:15.794766+00:00"
         }
       },
-      "updated_at": "2026-09-09T06:06:06.349942+00:00"
+      "updated_at": "2026-09-09T11:14:16.295536+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -42,8 +42,8 @@
       "won": 9,
       "lost": 15,
       "signal": "减仓/退出",
-      "fast_ma": 0.896,
-      "slow_ma": 0.9393,
+      "fast_ma": 0.8962,
+      "slow_ma": 0.9394,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
@@ -54,14 +54,14 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.9354,
-          "slow_ma": 1.0389,
+          "fast_ma": 0.9356,
+          "slow_ma": 1.039,
           "bars": 260,
           "latest_date": "2026-09-09",
-          "updated_at": "2026-09-09T06:06:08.652410+00:00"
+          "updated_at": "2026-09-09T11:14:17.633371+00:00"
         }
       },
-      "updated_at": "2026-09-09T06:06:09.153284+00:00"
+      "updated_at": "2026-09-09T11:14:18.134161+00:00"
     },
     "159870": {
       "total_return": 18.5,
@@ -94,5 +94,7 @@
       "updated_at": "2026-09-09T06:06:13.607467+00:00"
     }
   },
-  "errors": {}
+  "errors": {
+    "159870": "Server disconnected without sending a response."
+  }
 }
