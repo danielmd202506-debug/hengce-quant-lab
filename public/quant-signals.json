@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-10T10:04:52.212143+00:00",
+  "generated_at": "2026-09-10T14:19:27.028924+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
     "000965": {
-      "total_return": -27.32,
-      "annual_return": -8.77,
+      "total_return": -27.88,
+      "annual_return": -8.94,
       "max_drawdown": 49.84,
-      "sharpe": -1.66,
+      "sharpe": -1.67,
       "trades": 24,
       "won": 6,
       "lost": 18,
       "signal": "等待",
-      "fast_ma": 3.394,
-      "slow_ma": 3.2905,
+      "fast_ma": 3.39,
+      "slow_ma": 3.2895,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
@@ -24,14 +24,14 @@
       "timeframes": {
         "weekly": {
           "signal": "等待",
-          "fast_ma": 3.268,
-          "slow_ma": 3.2715,
+          "fast_ma": 3.264,
+          "slow_ma": 3.2705,
           "bars": 260,
           "latest_date": "2026-09-10",
-          "updated_at": "2026-09-10T05:50:09.344300+00:00"
+          "updated_at": "2026-09-10T14:19:11.862654+00:00"
         }
       },
-      "updated_at": "2026-09-10T05:50:09.845095+00:00"
+      "updated_at": "2026-09-10T14:19:12.363455+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -95,7 +95,6 @@
     }
   },
   "errors": {
-    "000965": "Server disconnected without sending a response.",
     "159755": "Server disconnected without sending a response.",
     "159870": "Server disconnected without sending a response."
   }
