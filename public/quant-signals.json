@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T17:08:52.942812+00:00",
+  "generated_at": "2026-09-11T19:39:17.828257+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -28,10 +28,10 @@
           "slow_ma": 3.263,
           "bars": 260,
           "latest_date": "2026-09-11",
-          "updated_at": "2026-09-11T09:11:22.076566+00:00"
+          "updated_at": "2026-09-11T19:39:13.245215+00:00"
         }
       },
-      "updated_at": "2026-09-11T09:11:22.577413+00:00"
+      "updated_at": "2026-09-11T19:39:13.746069+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -42,26 +42,26 @@
       "won": 9,
       "lost": 15,
       "signal": "减仓/退出",
-      "fast_ma": 0.891,
-      "slow_ma": 0.9346,
+      "fast_ma": 0.8856,
+      "slow_ma": 0.929,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
       "type": "ETF",
       "bars": 750,
-      "latest_date": "2026-09-10",
+      "latest_date": "2026-09-11",
       "commission": 5e-05,
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.933,
-          "slow_ma": 1.0383,
+          "fast_ma": 0.9306,
+          "slow_ma": 1.0377,
           "bars": 260,
-          "latest_date": "2026-09-10",
-          "updated_at": "2026-09-10T20:03:21.893658+00:00"
+          "latest_date": "2026-09-11",
+          "updated_at": "2026-09-11T19:39:15.280634+00:00"
         }
       },
-      "updated_at": "2026-09-10T20:03:22.394536+00:00"
+      "updated_at": "2026-09-11T19:39:15.781477+00:00"
     },
     "159870": {
       "total_return": 21.95,
@@ -88,15 +88,11 @@
           "slow_ma": 0.8306,
           "bars": 260,
           "latest_date": "2026-09-11",
-          "updated_at": "2026-09-11T09:11:37.040953+00:00"
+          "updated_at": "2026-09-11T19:39:17.327426+00:00"
         }
       },
-      "updated_at": "2026-09-11T09:11:37.541756+00:00"
+      "updated_at": "2026-09-11T19:39:17.828234+00:00"
     }
   },
-  "errors": {
-    "000965": "Server disconnected without sending a response.",
-    "159755": "Server disconnected without sending a response.",
-    "159870": "Server disconnected without sending a response."
-  }
+  "errors": {}
 }
