@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T10:28:04.520524+00:00",
+  "generated_at": "2026-09-15T15:10:33.035495+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -28,10 +28,10 @@
           "slow_ma": 3.2335,
           "bars": 260,
           "latest_date": "2026-09-15",
-          "updated_at": "2026-09-15T10:27:50.615275+00:00"
+          "updated_at": "2026-09-15T15:10:16.562105+00:00"
         }
       },
-      "updated_at": "2026-09-15T10:27:51.116128+00:00"
+      "updated_at": "2026-09-15T15:10:17.062911+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -42,8 +42,8 @@
       "won": 9,
       "lost": 15,
       "signal": "减仓/退出",
-      "fast_ma": 0.8778,
-      "slow_ma": 0.9172,
+      "fast_ma": 0.8766,
+      "slow_ma": 0.9168,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
@@ -61,7 +61,7 @@
           "updated_at": "2026-09-15T05:42:14.363226+00:00"
         }
       },
-      "updated_at": "2026-09-15T05:42:14.864065+00:00"
+      "updated_at": "2026-09-15T15:10:24.712586+00:00"
     },
     "159870": {
       "total_return": 21.95,
@@ -72,14 +72,14 @@
       "won": 8,
       "lost": 12,
       "signal": "减仓/退出",
-      "fast_ma": 0.7938,
-      "slow_ma": 0.8054,
+      "fast_ma": 0.7854,
+      "slow_ma": 0.8029,
       "framework": "Backtrader",
       "code": "159870",
       "name": "化工ETF鹏华",
       "type": "ETF",
       "bars": 750,
-      "latest_date": "2026-09-14",
+      "latest_date": "2026-09-15",
       "commission": 5e-05,
       "timeframes": {
         "weekly": {
@@ -91,11 +91,11 @@
           "updated_at": "2026-09-14T19:44:42.659532+00:00"
         }
       },
-      "updated_at": "2026-09-14T22:45:41.426140+00:00"
+      "updated_at": "2026-09-15T15:10:33.035474+00:00"
     }
   },
   "errors": {
-    "159755": "Server disconnected without sending a response.",
-    "159870": "Server disconnected without sending a response."
+    "159755:weekly": "Server disconnected without sending a response.",
+    "159870:weekly": "Server disconnected without sending a response."
   }
 }
