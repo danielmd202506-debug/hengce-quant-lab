@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T06:35:25.304616+00:00",
+  "generated_at": "2026-09-22T12:01:15.761659+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -12,8 +12,8 @@
       "won": 6,
       "lost": 19,
       "signal": "等待",
-      "fast_ma": 3.286,
-      "slow_ma": 3.325,
+      "fast_ma": 3.29,
+      "slow_ma": 3.326,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
@@ -24,14 +24,14 @@
       "timeframes": {
         "weekly": {
           "signal": "持有/观察买入",
-          "fast_ma": 3.304,
-          "slow_ma": 3.221,
+          "fast_ma": 3.308,
+          "slow_ma": 3.222,
           "bars": 260,
           "latest_date": "2026-09-22",
-          "updated_at": "2026-09-22T06:35:16.726739+00:00"
+          "updated_at": "2026-09-22T12:01:06.970143+00:00"
         }
       },
-      "updated_at": "2026-09-22T06:35:17.227427+00:00"
+      "updated_at": "2026-09-22T12:01:07.471022+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -42,8 +42,8 @@
       "won": 9,
       "lost": 15,
       "signal": "等待",
-      "fast_ma": 0.8734,
-      "slow_ma": 0.8974,
+      "fast_ma": 0.874,
+      "slow_ma": 0.8975,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
@@ -54,14 +54,14 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.8938,
-          "slow_ma": 1.003,
+          "fast_ma": 0.8942,
+          "slow_ma": 1.0031,
           "bars": 260,
           "latest_date": "2026-09-22",
-          "updated_at": "2026-09-22T06:35:19.992824+00:00"
+          "updated_at": "2026-09-22T12:01:10.494622+00:00"
         }
       },
-      "updated_at": "2026-09-22T06:35:20.493643+00:00"
+      "updated_at": "2026-09-22T12:01:10.995473+00:00"
     },
     "159870": {
       "total_return": 21.95,
@@ -88,10 +88,10 @@
           "slow_ma": 0.814,
           "bars": 260,
           "latest_date": "2026-09-22",
-          "updated_at": "2026-09-22T06:35:24.803905+00:00"
+          "updated_at": "2026-09-22T12:01:15.260750+00:00"
         }
       },
-      "updated_at": "2026-09-22T06:35:25.304600+00:00"
+      "updated_at": "2026-09-22T12:01:15.761635+00:00"
     }
   },
   "errors": {}
