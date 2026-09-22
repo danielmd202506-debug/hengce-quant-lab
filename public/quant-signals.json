@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T12:01:15.761659+00:00",
+  "generated_at": "2026-09-22T16:44:58.843811+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -28,10 +28,10 @@
           "slow_ma": 3.222,
           "bars": 260,
           "latest_date": "2026-09-22",
-          "updated_at": "2026-09-22T12:01:06.970143+00:00"
+          "updated_at": "2026-09-22T16:44:34.934809+00:00"
         }
       },
-      "updated_at": "2026-09-22T12:01:07.471022+00:00"
+      "updated_at": "2026-09-22T16:44:35.435722+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -61,7 +61,7 @@
           "updated_at": "2026-09-22T12:01:10.494622+00:00"
         }
       },
-      "updated_at": "2026-09-22T12:01:10.995473+00:00"
+      "updated_at": "2026-09-22T16:44:46.446000+00:00"
     },
     "159870": {
       "total_return": 21.95,
@@ -91,8 +91,11 @@
           "updated_at": "2026-09-22T12:01:15.260750+00:00"
         }
       },
-      "updated_at": "2026-09-22T12:01:15.761635+00:00"
+      "updated_at": "2026-09-22T16:44:58.843788+00:00"
     }
   },
-  "errors": {}
+  "errors": {
+    "159755:weekly": "Server disconnected without sending a response.",
+    "159870:weekly": "Server disconnected without sending a response."
+  }
 }
