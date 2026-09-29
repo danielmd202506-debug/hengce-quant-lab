@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-29T02:16:08.469057+00:00",
+  "generated_at": "2026-09-29T08:35:18.008455+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
     "000965": {
-      "total_return": -30.96,
-      "annual_return": -9.88,
+      "total_return": -30.14,
+      "annual_return": -9.63,
       "max_drawdown": 49.94,
-      "sharpe": -1.62,
+      "sharpe": -1.64,
       "trades": 25,
       "won": 6,
       "lost": 19,
       "signal": "持有/观察买入",
-      "fast_ma": 3.366,
-      "slow_ma": 3.33,
+      "fast_ma": 3.372,
+      "slow_ma": 3.3315,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
@@ -24,14 +24,14 @@
       "timeframes": {
         "weekly": {
           "signal": "持有/观察买入",
-          "fast_ma": 3.326,
-          "slow_ma": 3.2145,
+          "fast_ma": 3.332,
+          "slow_ma": 3.216,
           "bars": 260,
           "latest_date": "2026-09-29",
-          "updated_at": "2026-09-29T02:15:48.591848+00:00"
+          "updated_at": "2026-09-29T08:35:00.605315+00:00"
         }
       },
-      "updated_at": "2026-09-29T02:15:49.092705+00:00"
+      "updated_at": "2026-09-29T08:35:01.106114+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -61,7 +61,7 @@
           "updated_at": "2026-09-28T02:45:27.529915+00:00"
         }
       },
-      "updated_at": "2026-09-29T02:15:59.227309+00:00"
+      "updated_at": "2026-09-29T08:35:08.565721+00:00"
     },
     "159870": {
       "total_return": 21.95,
@@ -72,8 +72,8 @@
       "won": 8,
       "lost": 12,
       "signal": "减仓/退出",
-      "fast_ma": 0.7554,
-      "slow_ma": 0.7817,
+      "fast_ma": 0.7564,
+      "slow_ma": 0.782,
       "framework": "Backtrader",
       "code": "159870",
       "name": "化工ETF鹏华",
@@ -91,10 +91,11 @@
           "updated_at": "2026-09-29T02:16:07.968178+00:00"
         }
       },
-      "updated_at": "2026-09-29T02:16:08.469035+00:00"
+      "updated_at": "2026-09-29T08:35:18.008432+00:00"
     }
   },
   "errors": {
-    "159755:weekly": "Server disconnected without sending a response."
+    "159755:weekly": "Server disconnected without sending a response.",
+    "159870:weekly": "Server disconnected without sending a response."
   }
 }
