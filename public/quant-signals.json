@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T13:48:56.407955+00:00",
+  "generated_at": "2026-10-06T19:08:10.175430+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
