@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-12T20:17:57.495212+00:00",
+  "generated_at": "2026-10-13T02:05:04.641456+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
     "000965": {
-      "total_return": -34.04,
-      "annual_return": -10.81,
+      "total_return": -34.61,
+      "annual_return": -10.98,
       "max_drawdown": 49.94,
-      "sharpe": -1.52,
+      "sharpe": -1.5,
       "trades": 25,
       "won": 6,
       "lost": 19,
       "signal": "等待",
-      "fast_ma": 3.442,
+      "fast_ma": 3.41,
       "slow_ma": 3.34,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
       "type": "个股",
       "bars": 750,
-      "latest_date": "2026-10-12",
+      "latest_date": "2026-10-13",
       "commission": 8.6e-05,
       "timeframes": {
         "weekly": {
           "signal": "等待",
-          "fast_ma": 3.374,
-          "slow_ma": 3.221,
+          "fast_ma": 3.37,
+          "slow_ma": 3.22,
           "bars": 260,
-          "latest_date": "2026-10-12",
-          "updated_at": "2026-10-12T11:13:18.212320+00:00"
+          "latest_date": "2026-10-13",
+          "updated_at": "2026-10-13T02:04:59.755744+00:00"
         }
       },
-      "updated_at": "2026-10-12T11:13:18.713149+00:00"
+      "updated_at": "2026-10-13T02:05:00.256179+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -42,26 +42,26 @@
       "won": 9,
       "lost": 15,
       "signal": "减仓/退出",
-      "fast_ma": 0.8502,
-      "slow_ma": 0.8679,
+      "fast_ma": 0.8448,
+      "slow_ma": 0.8637,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
       "type": "ETF",
       "bars": 750,
-      "latest_date": "2026-10-12",
+      "latest_date": "2026-10-13",
       "commission": 5e-05,
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.8584,
-          "slow_ma": 0.9565,
+          "fast_ma": 0.852,
+          "slow_ma": 0.9549,
           "bars": 260,
-          "latest_date": "2026-10-12",
-          "updated_at": "2026-10-12T11:13:20.188681+00:00"
+          "latest_date": "2026-10-13",
+          "updated_at": "2026-10-13T02:05:02.001707+00:00"
         }
       },
-      "updated_at": "2026-10-12T11:13:20.689510+00:00"
+      "updated_at": "2026-10-13T02:05:02.502536+00:00"
     },
     "159870": {
       "total_return": 21.95,
@@ -72,31 +72,27 @@
       "won": 8,
       "lost": 12,
       "signal": "减仓/退出",
-      "fast_ma": 0.7414,
-      "slow_ma": 0.7686,
+      "fast_ma": 0.7372,
+      "slow_ma": 0.7645,
       "framework": "Backtrader",
       "code": "159870",
       "name": "化工ETF鹏华",
       "type": "ETF",
       "bars": 750,
-      "latest_date": "2026-10-12",
+      "latest_date": "2026-10-13",
       "commission": 5e-05,
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.7522,
-          "slow_ma": 0.7959,
+          "fast_ma": 0.7476,
+          "slow_ma": 0.7948,
           "bars": 260,
-          "latest_date": "2026-10-12",
-          "updated_at": "2026-10-12T03:28:30.932223+00:00"
+          "latest_date": "2026-10-13",
+          "updated_at": "2026-10-13T02:05:04.140626+00:00"
         }
       },
-      "updated_at": "2026-10-12T11:13:28.145958+00:00"
+      "updated_at": "2026-10-13T02:05:04.641434+00:00"
     }
   },
-  "errors": {
-    "000965": "Server disconnected without sending a response.",
-    "159755": "Server disconnected without sending a response.",
-    "159870": "Server disconnected without sending a response."
-  }
+  "errors": {}
 }
