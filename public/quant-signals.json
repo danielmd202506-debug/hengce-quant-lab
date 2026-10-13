@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-13T02:05:04.641456+00:00",
+  "generated_at": "2026-10-13T09:19:09.209637+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
     "000965": {
-      "total_return": -34.61,
-      "annual_return": -10.98,
+      "total_return": -33.47,
+      "annual_return": -10.64,
       "max_drawdown": 49.94,
-      "sharpe": -1.5,
+      "sharpe": -1.54,
       "trades": 25,
       "won": 6,
       "lost": 19,
       "signal": "等待",
-      "fast_ma": 3.41,
-      "slow_ma": 3.34,
+      "fast_ma": 3.418,
+      "slow_ma": 3.342,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
@@ -24,14 +24,14 @@
       "timeframes": {
         "weekly": {
           "signal": "等待",
-          "fast_ma": 3.37,
-          "slow_ma": 3.22,
+          "fast_ma": 3.378,
+          "slow_ma": 3.222,
           "bars": 260,
           "latest_date": "2026-10-13",
-          "updated_at": "2026-10-13T02:04:59.755744+00:00"
+          "updated_at": "2026-10-13T09:19:03.838494+00:00"
         }
       },
-      "updated_at": "2026-10-13T02:05:00.256179+00:00"
+      "updated_at": "2026-10-13T09:19:04.339250+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -42,8 +42,8 @@
       "won": 9,
       "lost": 15,
       "signal": "减仓/退出",
-      "fast_ma": 0.8448,
-      "slow_ma": 0.8637,
+      "fast_ma": 0.846,
+      "slow_ma": 0.8639,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
@@ -54,14 +54,14 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.852,
-          "slow_ma": 0.9549,
+          "fast_ma": 0.853,
+          "slow_ma": 0.9551,
           "bars": 260,
           "latest_date": "2026-10-13",
-          "updated_at": "2026-10-13T02:05:02.001707+00:00"
+          "updated_at": "2026-10-13T09:19:06.299701+00:00"
         }
       },
-      "updated_at": "2026-10-13T02:05:02.502536+00:00"
+      "updated_at": "2026-10-13T09:19:06.800469+00:00"
     },
     "159870": {
       "total_return": 21.95,
@@ -72,8 +72,8 @@
       "won": 8,
       "lost": 12,
       "signal": "减仓/退出",
-      "fast_ma": 0.7372,
-      "slow_ma": 0.7645,
+      "fast_ma": 0.7378,
+      "slow_ma": 0.7647,
       "framework": "Backtrader",
       "code": "159870",
       "name": "化工ETF鹏华",
@@ -84,14 +84,14 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.7476,
-          "slow_ma": 0.7948,
+          "fast_ma": 0.7482,
+          "slow_ma": 0.7949,
           "bars": 260,
           "latest_date": "2026-10-13",
-          "updated_at": "2026-10-13T02:05:04.140626+00:00"
+          "updated_at": "2026-10-13T09:19:08.708766+00:00"
         }
       },
-      "updated_at": "2026-10-13T02:05:04.641434+00:00"
+      "updated_at": "2026-10-13T09:19:09.209616+00:00"
     }
   },
   "errors": {}
