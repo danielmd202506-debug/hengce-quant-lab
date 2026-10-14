@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-14T05:21:13.353558+00:00",
+  "generated_at": "2026-10-14T10:20:40.296184+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
     "000965": {
-      "total_return": -34.61,
-      "annual_return": -10.98,
+      "total_return": -35.46,
+      "annual_return": -11.23,
       "max_drawdown": 49.94,
-      "sharpe": -1.5,
+      "sharpe": -1.47,
       "trades": 25,
       "won": 6,
       "lost": 19,
       "signal": "等待",
-      "fast_ma": 3.384,
-      "slow_ma": 3.335,
+      "fast_ma": 3.378,
+      "slow_ma": 3.3335,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
@@ -24,14 +24,14 @@
       "timeframes": {
         "weekly": {
           "signal": "等待",
-          "fast_ma": 3.37,
-          "slow_ma": 3.22,
+          "fast_ma": 3.364,
+          "slow_ma": 3.2185,
           "bars": 260,
           "latest_date": "2026-10-14",
-          "updated_at": "2026-10-14T05:21:07.461928+00:00"
+          "updated_at": "2026-10-14T10:20:19.141192+00:00"
         }
       },
-      "updated_at": "2026-10-14T05:21:07.962757+00:00"
+      "updated_at": "2026-10-14T10:20:19.641994+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -42,8 +42,8 @@
       "won": 9,
       "lost": 15,
       "signal": "减仓/退出",
-      "fast_ma": 0.8374,
-      "slow_ma": 0.8597,
+      "fast_ma": 0.836,
+      "slow_ma": 0.8593,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
@@ -61,7 +61,7 @@
           "updated_at": "2026-10-14T05:21:10.277240+00:00"
         }
       },
-      "updated_at": "2026-10-14T05:21:10.778092+00:00"
+      "updated_at": "2026-10-14T10:20:33.916009+00:00"
     },
     "159870": {
       "total_return": 21.95,
@@ -94,5 +94,8 @@
       "updated_at": "2026-10-14T05:21:13.353528+00:00"
     }
   },
-  "errors": {}
+  "errors": {
+    "159755:weekly": "Server disconnected without sending a response.",
+    "159870": "Server disconnected without sending a response."
+  }
 }
