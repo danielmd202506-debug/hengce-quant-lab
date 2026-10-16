@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-16T06:24:51.061167+00:00",
+  "generated_at": "2026-10-16T11:42:23.259100+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
     "000965": {
-      "total_return": -38.09,
-      "annual_return": -12.01,
+      "total_return": -37.5,
+      "annual_return": -11.84,
       "max_drawdown": 51.67,
-      "sharpe": -1.38,
+      "sharpe": -1.4,
       "trades": 25,
       "won": 6,
       "lost": 19,
       "signal": "减仓/退出",
-      "fast_ma": 3.282,
-      "slow_ma": 3.314,
+      "fast_ma": 3.286,
+      "slow_ma": 3.315,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
@@ -24,14 +24,14 @@
       "timeframes": {
         "weekly": {
           "signal": "等待",
-          "fast_ma": 3.346,
-          "slow_ma": 3.214,
+          "fast_ma": 3.35,
+          "slow_ma": 3.215,
           "bars": 260,
           "latest_date": "2026-10-16",
-          "updated_at": "2026-10-16T06:24:45.734546+00:00"
+          "updated_at": "2026-10-16T11:42:17.816512+00:00"
         }
       },
-      "updated_at": "2026-10-16T06:24:46.235335+00:00"
+      "updated_at": "2026-10-16T11:42:18.317440+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -42,8 +42,8 @@
       "won": 9,
       "lost": 15,
       "signal": "减仓/退出",
-      "fast_ma": 0.806,
-      "slow_ma": 0.849,
+      "fast_ma": 0.8064,
+      "slow_ma": 0.8492,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
@@ -54,14 +54,14 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.8448,
-          "slow_ma": 0.953,
+          "fast_ma": 0.8452,
+          "slow_ma": 0.9532,
           "bars": 260,
           "latest_date": "2026-10-16",
-          "updated_at": "2026-10-16T06:24:48.655923+00:00"
+          "updated_at": "2026-10-16T11:42:20.226681+00:00"
         }
       },
-      "updated_at": "2026-10-16T06:24:49.156735+00:00"
+      "updated_at": "2026-10-16T11:42:20.727540+00:00"
     },
     "159870": {
       "total_return": 21.95,
@@ -72,7 +72,7 @@
       "won": 8,
       "lost": 12,
       "signal": "减仓/退出",
-      "fast_ma": 0.7058,
+      "fast_ma": 0.706,
       "slow_ma": 0.7477,
       "framework": "Backtrader",
       "code": "159870",
@@ -84,14 +84,14 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.7432,
+          "fast_ma": 0.7434,
           "slow_ma": 0.7937,
           "bars": 260,
           "latest_date": "2026-10-16",
-          "updated_at": "2026-10-16T06:24:50.560335+00:00"
+          "updated_at": "2026-10-16T11:42:22.758238+00:00"
         }
       },
-      "updated_at": "2026-10-16T06:24:51.061143+00:00"
+      "updated_at": "2026-10-16T11:42:23.259076+00:00"
     }
   },
   "errors": {}
