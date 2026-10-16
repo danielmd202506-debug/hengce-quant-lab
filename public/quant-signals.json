@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-16T01:44:03.248341+00:00",
+  "generated_at": "2026-10-16T06:24:51.061167+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
     "000965": {
-      "total_return": -37.21,
-      "annual_return": -11.75,
+      "total_return": -38.09,
+      "annual_return": -12.01,
       "max_drawdown": 51.67,
-      "sharpe": -1.41,
+      "sharpe": -1.38,
       "trades": 25,
       "won": 6,
       "lost": 19,
       "signal": "减仓/退出",
-      "fast_ma": 3.288,
-      "slow_ma": 3.3155,
+      "fast_ma": 3.282,
+      "slow_ma": 3.314,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
@@ -24,14 +24,14 @@
       "timeframes": {
         "weekly": {
           "signal": "等待",
-          "fast_ma": 3.352,
-          "slow_ma": 3.2155,
+          "fast_ma": 3.346,
+          "slow_ma": 3.214,
           "bars": 260,
           "latest_date": "2026-10-16",
-          "updated_at": "2026-10-16T01:43:57.413459+00:00"
+          "updated_at": "2026-10-16T06:24:45.734546+00:00"
         }
       },
-      "updated_at": "2026-10-16T01:43:57.914284+00:00"
+      "updated_at": "2026-10-16T06:24:46.235335+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -42,8 +42,8 @@
       "won": 9,
       "lost": 15,
       "signal": "减仓/退出",
-      "fast_ma": 0.8072,
-      "slow_ma": 0.8493,
+      "fast_ma": 0.806,
+      "slow_ma": 0.849,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
@@ -54,14 +54,14 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.846,
-          "slow_ma": 0.9534,
+          "fast_ma": 0.8448,
+          "slow_ma": 0.953,
           "bars": 260,
           "latest_date": "2026-10-16",
-          "updated_at": "2026-10-16T01:44:00.507516+00:00"
+          "updated_at": "2026-10-16T06:24:48.655923+00:00"
         }
       },
-      "updated_at": "2026-10-16T01:44:01.008319+00:00"
+      "updated_at": "2026-10-16T06:24:49.156735+00:00"
     },
     "159870": {
       "total_return": 21.95,
@@ -88,10 +88,10 @@
           "slow_ma": 0.7937,
           "bars": 260,
           "latest_date": "2026-10-16",
-          "updated_at": "2026-10-16T01:44:02.747529+00:00"
+          "updated_at": "2026-10-16T06:24:50.560335+00:00"
         }
       },
-      "updated_at": "2026-10-16T01:44:03.248319+00:00"
+      "updated_at": "2026-10-16T06:24:51.061143+00:00"
     }
   },
   "errors": {}
