@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T02:32:58.953971+00:00",
+  "generated_at": "2026-10-19T08:03:21.885902+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -12,8 +12,8 @@
       "won": 6,
       "lost": 20,
       "signal": "减仓/退出",
-      "fast_ma": 3.242,
-      "slow_ma": 3.3105,
+      "fast_ma": 3.244,
+      "slow_ma": 3.311,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
@@ -24,14 +24,14 @@
       "timeframes": {
         "weekly": {
           "signal": "等待",
-          "fast_ma": 3.322,
-          "slow_ma": 3.201,
+          "fast_ma": 3.324,
+          "slow_ma": 3.2015,
           "bars": 260,
           "latest_date": "2026-10-19",
-          "updated_at": "2026-10-19T02:32:54.271973+00:00"
+          "updated_at": "2026-10-19T08:03:04.854752+00:00"
         }
       },
-      "updated_at": "2026-10-19T02:32:54.772836+00:00"
+      "updated_at": "2026-10-19T08:03:05.355567+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -42,8 +42,8 @@
       "won": 9,
       "lost": 15,
       "signal": "减仓/退出",
-      "fast_ma": 0.7914,
-      "slow_ma": 0.8444,
+      "fast_ma": 0.7922,
+      "slow_ma": 0.8445,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
@@ -54,14 +54,14 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.824,
-          "slow_ma": 0.938,
+          "fast_ma": 0.8248,
+          "slow_ma": 0.9381,
           "bars": 260,
           "latest_date": "2026-10-19",
-          "updated_at": "2026-10-19T02:32:56.331403+00:00"
+          "updated_at": "2026-10-19T08:03:12.719514+00:00"
         }
       },
-      "updated_at": "2026-10-19T02:32:56.832198+00:00"
+      "updated_at": "2026-10-19T08:03:13.220307+00:00"
     },
     "159870": {
       "total_return": 21.95,
@@ -94,5 +94,7 @@
       "updated_at": "2026-10-19T02:32:58.953949+00:00"
     }
   },
-  "errors": {}
+  "errors": {
+    "159870": "Server disconnected without sending a response."
+  }
 }
