@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T15:20:32.465699+00:00",
+  "generated_at": "2026-10-22T19:16:48.879420+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -28,10 +28,10 @@
           "slow_ma": 3.197,
           "bars": 260,
           "latest_date": "2026-10-22",
-          "updated_at": "2026-10-22T15:20:16.100526+00:00"
+          "updated_at": "2026-10-22T19:16:40.220274+00:00"
         }
       },
-      "updated_at": "2026-10-22T15:20:16.601329+00:00"
+      "updated_at": "2026-10-22T19:16:40.721062+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -54,14 +54,14 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.8158,
-          "slow_ma": 0.9359,
+          "fast_ma": 0.8154,
+          "slow_ma": 0.9358,
           "bars": 260,
           "latest_date": "2026-10-22",
-          "updated_at": "2026-10-22T05:17:32.443007+00:00"
+          "updated_at": "2026-10-22T19:16:44.297082+00:00"
         }
       },
-      "updated_at": "2026-10-22T15:20:25.406416+00:00"
+      "updated_at": "2026-10-22T19:16:44.797873+00:00"
     },
     "159870": {
       "total_return": 21.95,
@@ -72,8 +72,8 @@
       "won": 8,
       "lost": 12,
       "signal": "减仓/退出",
-      "fast_ma": 0.6908,
-      "slow_ma": 0.7316,
+      "fast_ma": 0.6906,
+      "slow_ma": 0.7315,
       "framework": "Backtrader",
       "code": "159870",
       "name": "化工ETF鹏华",
@@ -84,18 +84,15 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.7234,
+          "fast_ma": 0.7232,
           "slow_ma": 0.7864,
           "bars": 260,
           "latest_date": "2026-10-22",
-          "updated_at": "2026-10-22T05:17:34.733183+00:00"
+          "updated_at": "2026-10-22T19:16:48.378601+00:00"
         }
       },
-      "updated_at": "2026-10-22T05:17:35.233979+00:00"
+      "updated_at": "2026-10-22T19:16:48.879392+00:00"
     }
   },
-  "errors": {
-    "159755:weekly": "Server disconnected without sending a response.",
-    "159870": "Server disconnected without sending a response."
-  }
+  "errors": {}
 }
