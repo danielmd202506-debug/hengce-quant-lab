@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T18:37:27.857221+00:00",
+  "generated_at": "2026-10-29T22:57:42.094470+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -28,10 +28,10 @@
           "slow_ma": 3.1715,
           "bars": 260,
           "latest_date": "2026-10-29",
-          "updated_at": "2026-10-29T18:37:15.577967+00:00"
+          "updated_at": "2026-10-29T22:57:26.184362+00:00"
         }
       },
-      "updated_at": "2026-10-29T18:37:16.078805+00:00"
+      "updated_at": "2026-10-29T22:57:26.685156+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -61,7 +61,7 @@
           "updated_at": "2026-10-29T18:37:17.669992+00:00"
         }
       },
-      "updated_at": "2026-10-29T18:37:18.170812+00:00"
+      "updated_at": "2026-10-29T22:57:34.370731+00:00"
     },
     "159870": {
       "total_return": 21.95,
@@ -84,17 +84,17 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.7106,
-          "slow_ma": 0.779,
+          "fast_ma": 0.7102,
+          "slow_ma": 0.7789,
           "bars": 260,
           "latest_date": "2026-10-29",
-          "updated_at": "2026-10-29T05:59:36.025648+00:00"
+          "updated_at": "2026-10-29T22:57:41.593728+00:00"
         }
       },
-      "updated_at": "2026-10-29T18:37:27.857201+00:00"
+      "updated_at": "2026-10-29T22:57:42.094450+00:00"
     }
   },
   "errors": {
-    "159870:weekly": "Server disconnected without sending a response."
+    "159755:weekly": "Server disconnected without sending a response."
   }
 }
