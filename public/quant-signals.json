@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T05:59:36.526518+00:00",
+  "generated_at": "2026-10-29T12:31:18.144989+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -12,8 +12,8 @@
       "won": 6,
       "lost": 20,
       "signal": "减仓/退出",
-      "fast_ma": 2.982,
-      "slow_ma": 3.212,
+      "fast_ma": 2.98,
+      "slow_ma": 3.2115,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
@@ -24,14 +24,14 @@
       "timeframes": {
         "weekly": {
           "signal": "等待",
-          "fast_ma": 3.224,
-          "slow_ma": 3.172,
+          "fast_ma": 3.222,
+          "slow_ma": 3.1715,
           "bars": 260,
           "latest_date": "2026-10-29",
-          "updated_at": "2026-10-29T05:59:29.841774+00:00"
+          "updated_at": "2026-10-29T12:30:57.262539+00:00"
         }
       },
-      "updated_at": "2026-10-29T05:59:30.342631+00:00"
+      "updated_at": "2026-10-29T12:30:57.763321+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -42,8 +42,8 @@
       "won": 9,
       "lost": 15,
       "signal": "减仓/退出",
-      "fast_ma": 0.7504,
-      "slow_ma": 0.7949,
+      "fast_ma": 0.749,
+      "slow_ma": 0.7945,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
@@ -61,7 +61,7 @@
           "updated_at": "2026-10-29T05:59:32.331612+00:00"
         }
       },
-      "updated_at": "2026-10-29T05:59:32.832483+00:00"
+      "updated_at": "2026-10-29T12:31:10.288471+00:00"
     },
     "159870": {
       "total_return": 21.95,
@@ -94,5 +94,8 @@
       "updated_at": "2026-10-29T05:59:36.526495+00:00"
     }
   },
-  "errors": {}
+  "errors": {
+    "159755:weekly": "Server disconnected without sending a response.",
+    "159870": "Server disconnected without sending a response."
+  }
 }
