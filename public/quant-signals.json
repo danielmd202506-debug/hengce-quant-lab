@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T08:48:32.194355+00:00",
+  "generated_at": "2026-10-30T15:22:16.359218+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -28,10 +28,10 @@
           "slow_ma": 3.1675,
           "bars": 260,
           "latest_date": "2026-10-30",
-          "updated_at": "2026-10-30T08:48:12.626046+00:00"
+          "updated_at": "2026-10-30T15:22:01.823484+00:00"
         }
       },
-      "updated_at": "2026-10-30T08:48:13.126870+00:00"
+      "updated_at": "2026-10-30T15:22:02.324279+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -54,14 +54,14 @@
       "timeframes": {
         "weekly": {
           "signal": "减仓/退出",
-          "fast_ma": 0.7976,
-          "slow_ma": 0.9202,
+          "fast_ma": 0.7962,
+          "slow_ma": 0.9198,
           "bars": 260,
           "latest_date": "2026-10-30",
-          "updated_at": "2026-10-30T02:24:14.746822+00:00"
+          "updated_at": "2026-10-30T15:22:09.558105+00:00"
         }
       },
-      "updated_at": "2026-10-30T08:48:22.679888+00:00"
+      "updated_at": "2026-10-30T15:22:10.058922+00:00"
     },
     "159870": {
       "total_return": 21.95,
@@ -95,7 +95,6 @@
     }
   },
   "errors": {
-    "159755:weekly": "Server disconnected without sending a response.",
-    "159870:weekly": "Server disconnected without sending a response."
+    "159870": "Server disconnected without sending a response."
   }
 }
