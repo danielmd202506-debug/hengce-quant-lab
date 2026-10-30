@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T02:24:25.456162+00:00",
+  "generated_at": "2026-10-30T08:48:32.194355+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -12,8 +12,8 @@
       "won": 6,
       "lost": 20,
       "signal": "减仓/退出",
-      "fast_ma": 2.948,
-      "slow_ma": 3.19,
+      "fast_ma": 2.936,
+      "slow_ma": 3.187,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
@@ -24,14 +24,14 @@
       "timeframes": {
         "weekly": {
           "signal": "等待",
-          "fast_ma": 3.218,
-          "slow_ma": 3.1705,
+          "fast_ma": 3.206,
+          "slow_ma": 3.1675,
           "bars": 260,
           "latest_date": "2026-10-30",
-          "updated_at": "2026-10-30T02:24:11.473293+00:00"
+          "updated_at": "2026-10-30T08:48:12.626046+00:00"
         }
       },
-      "updated_at": "2026-10-30T02:24:11.974062+00:00"
+      "updated_at": "2026-10-30T08:48:13.126870+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -42,8 +42,8 @@
       "won": 9,
       "lost": 15,
       "signal": "减仓/退出",
-      "fast_ma": 0.744,
-      "slow_ma": 0.7884,
+      "fast_ma": 0.7426,
+      "slow_ma": 0.7881,
       "framework": "Backtrader",
       "code": "159755",
       "name": "电池ETF广发",
@@ -61,7 +61,7 @@
           "updated_at": "2026-10-30T02:24:14.746822+00:00"
         }
       },
-      "updated_at": "2026-10-30T02:24:15.247619+00:00"
+      "updated_at": "2026-10-30T08:48:22.679888+00:00"
     },
     "159870": {
       "total_return": 21.95,
@@ -72,8 +72,8 @@
       "won": 8,
       "lost": 12,
       "signal": "减仓/退出",
-      "fast_ma": 0.6794,
-      "slow_ma": 0.7048,
+      "fast_ma": 0.678,
+      "slow_ma": 0.7044,
       "framework": "Backtrader",
       "code": "159870",
       "name": "化工ETF鹏华",
@@ -91,8 +91,11 @@
           "updated_at": "2026-10-30T02:24:24.955321+00:00"
         }
       },
-      "updated_at": "2026-10-30T02:24:25.456139+00:00"
+      "updated_at": "2026-10-30T08:48:32.194335+00:00"
     }
   },
-  "errors": {}
+  "errors": {
+    "159755:weekly": "Server disconnected without sending a response.",
+    "159870:weekly": "Server disconnected without sending a response."
+  }
 }
