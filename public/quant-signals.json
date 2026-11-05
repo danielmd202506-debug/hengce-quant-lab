@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T22:50:48.196440+00:00",
+  "generated_at": "2026-11-05T02:54:08.976404+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -11,15 +11,15 @@
       "trades": 26,
       "won": 6,
       "lost": 20,
-      "signal": "减仓/退出",
-      "fast_ma": 2.844,
-      "slow_ma": 3.0975,
+      "signal": "等待",
+      "fast_ma": 2.85,
+      "slow_ma": 3.0725,
       "framework": "Backtrader",
       "code": "000965",
       "name": "天保基建",
       "type": "个股",
       "bars": 750,
-      "latest_date": "2026-11-04",
+      "latest_date": "2026-11-05",
       "commission": 8.6e-05,
       "timeframes": {
         "weekly": {
@@ -31,7 +31,7 @@
           "updated_at": "2026-11-04T02:38:02.473352+00:00"
         }
       },
-      "updated_at": "2026-11-04T02:38:02.974138+00:00"
+      "updated_at": "2026-11-05T02:53:55.187477+00:00"
     },
     "159755": {
       "total_return": 14.03,
@@ -95,7 +95,7 @@
     }
   },
   "errors": {
-    "000965": "Server disconnected without sending a response.",
+    "000965:weekly": "Server disconnected without sending a response.",
     "159755": "Server disconnected without sending a response.",
     "159870": "Server disconnected without sending a response."
   }
