@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T14:45:30.478816+00:00",
+  "generated_at": "2026-11-11T21:34:24.944569+00:00",
   "frequency_minutes": 5,
   "strategy": "Backtrader MA5/MA20",
   "signals": {
@@ -28,10 +28,10 @@
           "slow_ma": 3.1475,
           "bars": 260,
           "latest_date": "2026-11-11",
-          "updated_at": "2026-11-11T14:45:12.523340+00:00"
+          "updated_at": "2026-11-11T21:34:13.548790+00:00"
         }
       },
-      "updated_at": "2026-11-11T14:45:13.024141+00:00"
+      "updated_at": "2026-11-11T21:34:14.049628+00:00"
     },
     "159755": {
       "total_return": 10.46,
@@ -54,14 +54,14 @@
       "timeframes": {
         "weekly": {
           "signal": "等待",
-          "fast_ma": 0.7646,
+          "fast_ma": 0.7644,
           "slow_ma": 0.8877,
           "bars": 260,
           "latest_date": "2026-11-11",
-          "updated_at": "2026-11-11T06:52:58.598614+00:00"
+          "updated_at": "2026-11-11T21:34:15.995859+00:00"
         }
       },
-      "updated_at": "2026-11-11T14:45:22.792576+00:00"
+      "updated_at": "2026-11-11T21:34:16.496658+00:00"
     },
     "159870": {
       "total_return": 20.97,
@@ -84,18 +84,15 @@
       "timeframes": {
         "weekly": {
           "signal": "等待",
-          "fast_ma": 0.687,
-          "slow_ma": 0.7629,
+          "fast_ma": 0.6872,
+          "slow_ma": 0.763,
           "bars": 260,
           "latest_date": "2026-11-11",
-          "updated_at": "2026-11-11T06:53:01.863905+00:00"
+          "updated_at": "2026-11-11T21:34:24.443747+00:00"
         }
       },
-      "updated_at": "2026-11-11T14:45:30.478796+00:00"
+      "updated_at": "2026-11-11T21:34:24.944547+00:00"
     }
   },
-  "errors": {
-    "159755:weekly": "Server disconnected without sending a response.",
-    "159870:weekly": "Server disconnected without sending a response."
-  }
+  "errors": {}
 }
